@@ -124,7 +124,20 @@
                     <shadedArtifactAttached>true</shadedArtifactAttached>
                     <relocations>
                         <relocation>
-                            <shadedPattern>net.md_5.specialsource.shaded</shadedPattern>
+                            <pattern>joptsimple.</pattern>
+                            <shadedPattern>net.md_5.specialsource.joptsimple.</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>com.google.common.</pattern>
+                            <shadedPattern>net.md_5.specialsource.google.</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>au.com.bytecode.opencsv.</pattern>
+                            <shadedPattern>net.md_5.specialsource.opencsv.</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>org.objectweb.asm.</pattern>
+                            <shadedPattern>net.md_5.specialsource.asm.</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
