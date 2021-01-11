@@ -133,11 +133,19 @@
                         </relocation>
                         <relocation>
                             <pattern>au.com.bytecode.opencsv.</pattern>
+                            <shadedPattern>net.md_5.specialsource.auopencsv.</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>com.opencsv.</pattern>
                             <shadedPattern>net.md_5.specialsource.opencsv.</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>org.objectweb.asm.</pattern>
                             <shadedPattern>net.md_5.specialsource.asm.</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>org.apache.commons.lang3.</pattern>
+                            <shadedPattern>net.md_5.specialsource.lang3.</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
